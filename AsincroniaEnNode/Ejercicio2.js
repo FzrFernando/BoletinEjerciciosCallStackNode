@@ -14,3 +14,10 @@ function imprimirMensaje(mensaje){
 
 console.log(imprimirMensaje("Hola, Mundo"));
 
+setTimeout(() => {
+    imprimirMensaje("Hola con setTimeout");
+}, 2000);
+
+setTimeout(() => {
+    console.log("Final");
+}, 3000);
